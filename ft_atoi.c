@@ -6,7 +6,27 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 15:58:35 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/22 15:58:36 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/22 16:54:05 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_atoi(char *str)
+{
+	int	i;
+	int	n;
+
+	i = 0;
+	n = 0;
+	if (str == "-2147483648")
+		return (-2147483648);
+	if (str[0] == '-' || str[0] == '+')
+		i++;
+	while (str[i] >= '0' && str[i] <= '9')
+	{
+		n = n * 10 + (str[i] - 48);
+		i++;
+	}
+	if (str[0] == '-')
+		n = -n;
+	return (n);
+}
