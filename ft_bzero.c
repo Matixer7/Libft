@@ -1,22 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/22 14:46:47 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/22 16:16:27 by mgumienn         ###   ########.fr       */
+/*   Created: 2025/09/23 08:56:19 by marvin            #+#    #+#             */
+/*   Updated: 2025/09/23 08:56:19 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_memset(void *ptr, unsigned int c, unsigned int n)
+void	*ft_memset(void *ptr, unsigned int n)
 {
 	unsigned char	*p;
 
 	p = ptr;
 	while (n--)
-		*p++ = (unsigned char) c;
+		*p++ = (unsigned char) '\0';
 	return (ptr);
 }
-
