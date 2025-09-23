@@ -10,3 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+void	*ft_memmove(void *dest, void *src, unsigned int n)
+{
+	unsigned char       *d = dest;
+    unsigned char *s = src;
+
+    if (d == s || n == 0)
+        *d = *s;
+
+    if (d < s)
+    {
+        while (n--)
+            *d++ = *s++;
+    }
+    else
+    {
+        d += n;
+        s += n;
+        while (n--)
+            *--d = *--s;
+    }
+	return (d);
+}
