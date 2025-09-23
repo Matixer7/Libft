@@ -4,12 +4,12 @@
 //• isascii
 //• isprint
 //• strlen
-• memset
+//• memset
 • bzero
 • memcpy
 • memmove
 //• strlcpy
-• strlcat
+//• strlcat
 • toupper
 • tolower
 • strchr
@@ -18,4 +18,4 @@
 • memchr
 • memcmp
 • strnstr
-• atoi
+//• atoi
