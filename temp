@@ -11,7 +11,7 @@
 //• strlcpy
 //• strlcat
 //• toupper
-• tolower
+//• tolower
 • strchr
 • strrchr
 //• strncmp
@@ -19,3 +19,7 @@
 • memcmp
 • strnstr
 //• atoi
+
+USING MALLOC
+• calloc 
+• strdup
