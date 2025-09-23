@@ -22,21 +22,21 @@ void	*ft_memcpy(void *dest, void *src, unsigned int n)
 	return (dest);
 }
 
-#include <stdio.h>
-#include <string.h>
+// #include <stdio.h>
+// #include <string.h>
 
-int main() {
+// int main() {
 
-    // Initialize a variable
-    char b[] = "Hello";
-    char a[] = "XX";
+//     // Initialize a variable
+//     char b[] = "Hello";
+//     char a[] = "XX";
     
-    printf("Value of b before calling memcpy: %d\n", b);
+//     printf("Value of b before calling memcpy: %d\n", b);
 
-    // Use memcpy to copy the value of 'a' into 'b'
-    ft_memcpy(&b, &a, 2); 
+//     // Use memcpy to copy the value of 'a' into 'b'
+//     ft_memcpy(&b, &a, 2); 
 
-    printf("Value of b after calling memcpy: %d\n", b);
+//     printf("Value of b after calling memcpy: %d\n", b);
 
-    return 0;
-}
+//     return 0;
+// }
