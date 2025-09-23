@@ -12,7 +12,7 @@
 //• strlcat
 //• toupper
 //• tolower
-• strchr
+//• strchr
 • strrchr
 //• strncmp
 • memchr
