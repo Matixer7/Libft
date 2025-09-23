@@ -15,11 +15,11 @@
 //• strchr
 //• strrchr
 //• strncmp
-• memchr
+//• memchr
 • memcmp
 //• strnstr
 //• atoi
 
 //USING MALLOC
 • calloc 
-• strdup
+//• strdup
