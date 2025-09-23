@@ -10,7 +10,7 @@
 //• memmove
 //• strlcpy
 //• strlcat
-• toupper
+//• toupper
 • tolower
 • strchr
 • strrchr
