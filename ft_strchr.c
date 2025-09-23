@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:42:02 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 10:42:02 by marvin           ###   ########.fr       */
+/*   Updated: 2025/09/23 18:58:06 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strchr(char *str, unsigned char c)
 {
-	char *p;
+	char	*p;
 
 	p = str;
 	while (*p != c && *p != '\0' && *p)

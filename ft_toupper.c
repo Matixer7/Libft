@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:18:56 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 10:18:56 by marvin           ###   ########.fr       */
+/*   Updated: 2025/09/23 18:54:14 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char ft_toupper (char c)
+char	ft_toupper (char c)
 {
-    if (c >= 'a' && c <= 'z')
-        c -= 32;
-    return (c);
+	if (c >= 'a' && c <= 'z')
+		c -= 32;
+	return (c);
 }

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:29:28 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 10:29:28 by marvin           ###   ########.fr       */
+/*   Updated: 2025/09/23 18:53:54 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char ft_tolower (char c)
+char	ft_tolower(char c)
 {
-    if (c >= 'A' && c <= 'Z')
-        c += 32;
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+		c += 32;
+	return (c);
 }

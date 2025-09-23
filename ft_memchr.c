@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 12:36:30 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 12:36:30 by marvin           ###   ########.fr       */
+/*   Updated: 2025/09/23 19:17:46 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memchr(void *src, int search, unsigned int n)
 	while (n--)
 	{
 		if (*ptr == (unsigned char) search)
-			return(ptr);
+			return (ptr);
 		ptr++;
 	}
 	return (0);
