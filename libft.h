@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 19:13:55 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 19:28:43 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/23 19:44:26 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,9 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);
 int				ft_strlen(char *str);
 int				ft_strncmp(char *s1, char *s2, unsigned int n);
 char			*ft_strnstr(char *str, char *to_find, unsigned int n);
+char			*ft_strrchr(char *str, unsigned char c);
+char			ft_tolower(char c);
+char			ft_toupper (char c);
 
 
 
