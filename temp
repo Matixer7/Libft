@@ -13,13 +13,13 @@
 //• toupper
 //• tolower
 //• strchr
-• strrchr
+//• strrchr
 //• strncmp
 • memchr
 • memcmp
 • strnstr
 //• atoi
 
-USING MALLOC
+//USING MALLOC
 • calloc 
 • strdup
