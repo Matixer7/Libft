@@ -6,11 +6,13 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 14:19:51 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 18:52:05 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:40:37 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include "libft.h"
+
+size_t	ft_strlen(char *str)
 {
 	int	i;
 

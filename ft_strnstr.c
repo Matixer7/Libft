@@ -6,14 +6,16 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 12:14:27 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 18:58:43 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:44:51 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strnstr(char *str, char *to_find, unsigned int n)
+#include "libft.h"
+
+char	*ft_strnstr(char *str, char *to_find, size_t n)
 {
-	int		i;
-	int		j;
+	size_t	i;
+	size_t	j;
 
 	i = 0;
 	j = 0;

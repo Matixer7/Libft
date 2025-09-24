@@ -6,11 +6,13 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 12:36:30 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 19:17:46 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:34:06 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_memchr(void *src, int search, unsigned int n)
+#include "libft.h"
+
+void	*ft_memchr(void *src, int search, size_t n)
 {
 	unsigned char	*ptr;
 

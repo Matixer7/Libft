@@ -6,11 +6,13 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 12:55:48 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 19:18:29 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:35:05 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_memcmp(void *s1, void *s2, unsigned int n)
+#include "libft.h"
+
+int	ft_memcmp(void *s1, void *s2, size_t n)
 {
 	unsigned char	*p1;
 	unsigned char	*p2;

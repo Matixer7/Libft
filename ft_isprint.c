@@ -6,11 +6,13 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 14:43:54 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 18:50:40 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 16:20:24 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(char c)
+#include "libft.h"
+
+int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 127);
 }

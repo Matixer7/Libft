@@ -6,13 +6,15 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 14:40:23 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 18:52:02 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:40:15 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 #include <unistd.h>
 
-unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
+size_t	ft_strlcpy(char *dest, char *src, size_t size)
 {
 	unsigned int	i;
 	unsigned int	src_size;

@@ -6,9 +6,11 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:02:00 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 18:55:23 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 16:20:25 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, void *src, unsigned int n)
 {

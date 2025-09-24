@@ -6,9 +6,11 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:29:28 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 18:53:54 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 16:20:27 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	ft_tolower(char c)
 {

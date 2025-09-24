@@ -6,9 +6,11 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 15:58:35 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 18:50:07 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:32:46 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(char *str)
 {
@@ -17,7 +19,7 @@ int	ft_atoi(char *str)
 
 	i = 0;
 	n = 0;
-	if (str == "-2147483648")
+	if (ft_strncmp(str, "-2147483648", 11) == 0)
 		return (-2147483648);
 	if (str[0] == '-' || str[0] == '+')
 		i++;

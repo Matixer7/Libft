@@ -6,11 +6,13 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/03 10:19:48 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/23 18:52:09 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:41:15 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+#include "libft.h"
+
+int	ft_strncmp(char *s1, char *s2, size_t n)
 {
 	int				i;
 	unsigned int	j;

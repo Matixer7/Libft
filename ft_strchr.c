@@ -6,9 +6,11 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:42:02 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/23 18:58:06 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/24 19:37:13 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(char *str, unsigned char c)
 {
@@ -20,10 +22,4 @@ char	*ft_strchr(char *str, unsigned char c)
 	return (p);
 }
 
-// int main(void)
-// {
-// 	char *str = "Find me I'm hexre";
-// 	char c = 'x';
-// 	str = ft_strchr(str, c);
-// 	return 0;
-// }
+
