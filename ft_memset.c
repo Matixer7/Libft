@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	*ft_memset(void *ptr, unsigned int c, size_t n)
+void	*ft_memset(void *ptr, int c, size_t n)
 {
 	unsigned char	*p;
 
