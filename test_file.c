@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 18:08:04 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/24 19:28:01 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/25 15:56:09 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 int	main(void)
 {
-	printf("%d", ft_atoi("56"));
+	printf("Atoi: %d", ft_atoi("56"));
+	
 	return (0);
 }

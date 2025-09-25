@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 19:13:55 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/24 17:30:51 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/25 19:28:59 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,15 @@ int				ft_isdigit(unsigned char c);
 int				ft_isprint(int c);
 void			*ft_memchr(void *src, int search, size_t n);
 int				ft_memcmp(void *s1, void *s2, size_t n);
-void			*ft_memcpy(void *dest, void *src, unsigned int n);
+void			*ft_memcpy(void *dest, const void *src, size_t n);
 void			*ft_memmove(void *dest, void *src, unsigned int n);
 void			*ft_memset(void *ptr, unsigned int c, size_t n);
-char			*ft_strchr(char *str, unsigned char c);
+char			*ft_strchr(const char *str, unsigned char c);
 char			*ft_strdup(char *src);
 size_t			ft_strlcat(char *dest, char *src, size_t size);
 size_t			ft_strlcpy(char *dest, char *src, size_t size);
-size_t			ft_strlen(char *str);
-int				ft_strncmp(char *s1, char *s2, size_t n);
+size_t			ft_strlen(const char *str);
+int				ft_strncmp(const char *s1, const char *s2, size_t n);
 char			*ft_strnstr(char *str, char *to_find, size_t n);
 char			*ft_strrchr(char *str, unsigned char c);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
