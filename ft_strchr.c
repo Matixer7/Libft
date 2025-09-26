@@ -16,7 +16,7 @@ char	*ft_strchr(const char *str, int c)
 {
 	char	*p;
 
-	p = str;
+	p = (unsigned char*) str;
 	while (*p != c && *p != '\0' && *p)
 		p++;
 	return (p);
