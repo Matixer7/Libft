@@ -17,7 +17,7 @@ char	*ft_strrchr(const char *str, int c)
 	int		i;
 	char	*p;
 
-	p = str;
+	p = (unsigned char*) str;
 	i = 0;
 	while (p[i] != '\0')
 		i++;
