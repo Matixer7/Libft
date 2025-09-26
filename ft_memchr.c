@@ -16,7 +16,7 @@ void	*ft_memchr(const void *src, int search, size_t n)
 {
 	unsigned char	*ptr;
 
-	ptr = src;
+	ptr = (unsigned char*) src;
 	while (n--)
 	{
 		if (*ptr == (unsigned char) search)
