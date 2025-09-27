@@ -14,24 +14,16 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	int		i;
-	char	*p;
+	int i;
 
-	p = (char*) str;
-	i = 0;
-	while (p[i] != '\0')
-		i++;
-	i--;
-	while (p[i] != c && i >= 0 && p[i])
-		i--;
-	p += i;
-	return (p);
+	i = ft_strlen(str);
+	str += i;
+	while (*str)
+	{
+		if (*str == (char) c)
+			return ((char*) str);
+		str--;
+	}
+	return (0);
 }
 
-// int main(void)
-// {
-// 	char *str = "Fxind me I'm hexre";
-// 	char c = 'x';
-// 	str = ft_strrchr(str, c);
-// 	return 0;
-// }
