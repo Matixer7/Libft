@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	odd_or_even(char *str)
+int	odd_or_even(const char *str)
 {
 	int	i;
 	int	j;
