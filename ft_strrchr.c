@@ -18,11 +18,11 @@ char	*ft_strrchr(const char *str, int c)
 
 	i = ft_strlen(str);
 	str += i;
-	while (*str)
+	while (i >= 0)
 	{
-		if (*str == (char) c)
-			return ((char*) str);
-		str--;
+		if (str[i] == (char) c)
+			return ((char*) (str + i));
+		i--;
 	}
 	return (0);
 }
