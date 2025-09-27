@@ -23,7 +23,7 @@ char	*ft_strchr(const char *str, int c)
 			return (p);
 		p++;
 	}
-	return (p);
+	return (0);
 }
 
 
