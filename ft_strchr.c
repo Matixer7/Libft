@@ -17,8 +17,12 @@ char	*ft_strchr(const char *str, int c)
 	char	*p;
 
 	p = (char*) str;
-	while (*p != (unsigned char) c && p)
+	while (p)
+	{
+		if (*p == (unsigned char) c)
+			return (p);
 		p++;
+	}
 	return (p);
 }
 
