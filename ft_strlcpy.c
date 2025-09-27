@@ -12,8 +12,6 @@
 
 #include "libft.h"
 
-#include <unistd.h>
-
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	unsigned int	i;
@@ -31,7 +29,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 		}
 		dest[i] = '\0';
 	}
-	return (src_size);
+	return (i);
 }
 
 /*int     main(void)
