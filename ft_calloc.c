@@ -6,19 +6,19 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 13:27:35 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/24 19:33:34 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/28 15:15:38 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-#include <stdlib.h>
-
 void	*ft_calloc(size_t count, size_t size)
 {
-	unsigned int	i;
+	size_t			i;
 	unsigned char	*ptr;
 
+	if (count != 0 && size > SIZE_MAX / count)
+		return (NULL);
 	ptr = malloc(size * count);
 	if (!ptr)
 		return (0);
