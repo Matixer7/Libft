@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 19:13:55 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/28 15:51:09 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/28 18:26:11 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ size_t			ft_strlen(const char *str);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 char			*ft_strnstr(const char *str, const char *to_find, size_t n);
 char			*ft_strrchr(const char *str, int c);
+char			*ft_strtrim(const char *s1, const char *set);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 char			ft_tolower(int c);
 char			ft_toupper(int c);
