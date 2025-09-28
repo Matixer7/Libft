@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:37:16 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/24 16:20:25 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/28 14:40:30 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	unsigned char	*d;
+	unsigned char		*d;
 	const unsigned char	*s;
 
 	d = dest;

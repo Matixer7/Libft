@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 14:46:47 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/24 19:35:20 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/28 14:42:44 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ void	*ft_memset(void *ptr, int c, size_t n)
 		*p++ = (unsigned char) c;
 	return (ptr);
 }
-

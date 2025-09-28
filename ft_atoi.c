@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 15:58:35 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/28 14:01:13 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/09/28 14:39:20 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_atoi(const char *str)
 {
 	int	i;
 	int	n;
-	int sign;
+	int	sign;
 
 	i = 0;
 	n = 0;
