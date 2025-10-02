@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 19:13:55 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/10/01 19:08:05 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/02 18:36:29 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <stdint.h>
+# include <unistd.h>
 
 int				ft_atoi(const char *str);
 void			*ft_bzero(void *ptr, size_t n);
@@ -30,6 +31,10 @@ int				ft_memcmp(const void *s1, void *s2, size_t n);
 void			*ft_memcpy(void *dest, const void *src, size_t n);
 void			*ft_memmove(void *dest, const void *src, size_t n);
 void			*ft_memset(void *ptr, int c, size_t n);
+void			ft_putchar_fd(char c, int fd);
+void			ft_putendl_fd(char *s, int fd);
+void			ft_putnbr_fd(int n, int fd);
+void			ft_putstr_fd(char *s, int fd);
 char			**ft_split(char const *s, char c);
 char			*ft_strchr(const char *str, int c);
 char			*ft_strdup(const char *src);

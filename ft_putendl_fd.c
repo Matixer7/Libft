@@ -1,20 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test_file.c                                        :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/24 18:08:04 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/28 14:44:28 by mgumienn         ###   ########.fr       */
+/*   Created: 2025/10/02 18:33:06 by mgumienn          #+#    #+#             */
+/*   Updated: 2025/10/02 18:34:51 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
-int	main(void)
+void	ft_putendl_fd(char *s, int fd)
 {
-	printf("Atoi: %d", ft_atoi("56"));
-	return (0);
+	while (*s)
+	{
+		write(fd, s, 1);
+		s++;
+	}
+	write(fd, "\n", 1);
 }
