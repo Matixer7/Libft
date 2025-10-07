@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 15:49:42 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/28 17:13:26 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/06 17:57:21 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,4 +38,3 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	str[i] = '\0';
 	return (str);
 }
-

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 18:14:05 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/30 19:48:29 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/06 17:54:16 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	count_digits(int n)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (n <= 0)
@@ -43,11 +43,11 @@ char	*ft_itoa(int n)
 	}
 	else
 		nb = (unsigned int)n;
-	if(nb == 0)
+	if (nb == 0)
 		itoa[0] = '0';
 	while (nb != 0)
 	{
-		itoa[len - 1] = (nb % 10 ) + '0';
+		itoa[len - 1] = (nb % 10) + '0';
 		nb = nb / 10;
 		len--;
 	}

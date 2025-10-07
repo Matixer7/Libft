@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/03 18:22:03 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/10/03 18:27:29 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/06 17:43:20 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 		del((*lst)->content);
 		free(*lst);
 		*lst = temp;
-		
 	}
 	*lst = NULL;
 }
