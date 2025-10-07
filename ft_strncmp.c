@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/03 10:19:48 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/24 19:41:15 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/07 20:22:05 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,14 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	int				i;
-	unsigned int	j;
+	size_t i;
 
-	j = 0;
 	i = 0;
-	while (s1[i] && s2[i] && s1[i] == s2[i] && j < n)
+	while (i < n && (s1[i] || s2[i]))
 	{
+		if (s1[i] != s2[i])
+			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 		i++;
-		j++;
 	}
-	if (j == n)
-		return (0);
-	return (s1[i] - s2[i]);
+	return (0);
 }
-
-/* int main (void)
-{
-	#include <stdio.h>
-	#include <string.h>
-	printf("%d", ft_strncmp("", "", 0));
-	printf("\n%d", strncmp("", "", 0));
-	
-} */
