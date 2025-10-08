@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 19:39:16 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/30 19:50:34 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/08 17:05:52 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	unsigned int	i;
-	char			*str;
+	size_t	i;
+	char	*str;
 
 	str = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
 	i = 0;

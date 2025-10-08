@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 14:40:23 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/24 19:40:15 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/08 17:05:02 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
-	unsigned int	i;
-	unsigned int	src_size;
+	size_t	i;
+	size_t	src_size;
 
 	i = 0;
 	src_size = ft_strlen(src);
