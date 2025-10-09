@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgumienn <mgumienn@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 14:40:23 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/10/08 17:05:02 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/09 18:11:38 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (src_size);
 }
-
-/*int     main(void)
-{
-    #include <stdio.h>
-    char    dest[10];
-    char    *ptr = dest;
-
-    ft_strlcpy(ptr, "Hello, world!", 10);
-    printf("%s", dest);
-    printf("%d", ft_strlcpy(ptr, "Hello, world!", 10));
-}*/

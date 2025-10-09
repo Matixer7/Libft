@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 15:49:42 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/10/06 17:57:21 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/09 18:20:35 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	if (s1_len != 0 && s2_len > SIZE_MAX / s1_len)
 		return (NULL);
 	str = malloc(s1_len + s2_len + 1);
+	if (!str)
+		return (NULL);
 	while (s1[i] != '\0')
 	{
 		str[i] = s1[i];

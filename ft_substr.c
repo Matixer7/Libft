@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 17:25:40 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/09/28 18:18:04 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/09 18:22:25 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		sub_len = len;
 	i = 0;
 	sub = (char *)malloc(sizeof(char) * (sub_len + 1));
+	if (!sub)
+		return (NULL);
 	while (i < len && s[start + i])
 	{
 		sub[i] = s[start + i];

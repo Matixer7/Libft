@@ -6,7 +6,7 @@
 /*   By: mgumienn <mgumienn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 18:14:05 by mgumienn          #+#    #+#             */
-/*   Updated: 2025/10/06 17:54:16 by mgumienn         ###   ########.fr       */
+/*   Updated: 2025/10/09 18:18:18 by mgumienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,8 @@ char	*ft_itoa(int n)
 
 	len = (unsigned int)count_digits(n);
 	itoa = (char *)malloc(sizeof(char) * (len + 1));
+	if (!itoa)
+		return (NULL);
 	itoa[len] = '\0';
 	if (n < 0)
 	{
